@@ -1,21 +1,29 @@
+.page {
+  scroll-behavior: smooth;
+}
+.page__body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: min-content;
+  width: 157px;
 }
 .logo__img {
   height: 25px;
   width: 25px;
 }
 .logo__text {
-  font-size: large;
+  font-size: larger;
 }
 
 .nav__list {
   display: flex;
   gap: 48px;
-  width: max-content;
   list-style: none;
 }
 .nav__link {
@@ -30,6 +38,18 @@
 }
 .nav__link:hover {
   text-shadow: 1px 1px 2px white;
+}
+
+.header {
+  display: flex;
+}
+.header__container {
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=index.css.map */

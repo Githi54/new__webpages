@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min-content;
+}
+.logo__img {
+  height: 25px;
+  width: 25px;
+}
+.logo__text {
+  font-size: large;
+}
+
+.nav__list {
+  display: flex;
+  gap: 48px;
+  width: max-content;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  text-shadow: 1px 1px 2px white;
+}
+
+/*# sourceMappingURL=index.css.map */

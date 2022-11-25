@@ -1,0 +1,38 @@
+.desktop_apps {
+  display: flex;
+
+  margin: 0 auto;
+
+  gap: 50px;
+
+  &__img {
+    box-shadow: 10px 5px 5px gray;
+    border-radius: 5px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+  }
+
+  &__title {
+    margin: 0;
+    text-decoration: none;
+
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    } 
+  }
+
+  &__paragraph {
+    max-width: 560px;
+  }
+}

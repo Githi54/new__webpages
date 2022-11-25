@@ -152,6 +152,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.form__button_submit:hover {
+  background-color: white;
+  transition: 300ms;
+}
 
 .desktop_apps {
   display: flex;
@@ -168,6 +172,8 @@
   gap: 50px;
 }
 .desktop_apps__title {
+  display: block;
+  padding: 0;
   margin: 0;
   text-decoration: none;
   font-style: bold;

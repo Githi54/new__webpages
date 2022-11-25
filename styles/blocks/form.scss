@@ -57,5 +57,10 @@
     border-radius: 5px;
 
     cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      transition: 300ms;
+    }
   }
 }

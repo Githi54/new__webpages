@@ -102,4 +102,11 @@
   color: blue;
 }
 
+.homepage__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 /*# sourceMappingURL=index.css.map */

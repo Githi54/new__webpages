@@ -105,8 +105,43 @@
 .homepage__info {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  padding-top: 30px;
   gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form__title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  margin: 0;
+}
+.form__input {
+  all: unset;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 50px;
+  width: 610px;
+}
+.form__message {
+  padding-top: 5px;
+}
+.form__button_submit {
+  height: 50px;
+  width: 105px;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,62 @@
+.page_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  &__new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20px;
+    width: 100px;
+
+    border: 1px solid red;
+    background-color: red;
+  }
+
+  &__new_text {
+    text-transform: uppercase;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: black;
+  }
+
+  &__version {
+    font-family: 'Times New Roman', Times, serif;
+
+    color: gray;
+  }
+
+  &__text_container {
+    max-width: 530px;
+  }
+
+  &__header {
+    font-size: 24px;
+
+    text-transform: capitalize;
+  }
+
+  &__text {
+    max-width: 530px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: blue;
+  }
+}

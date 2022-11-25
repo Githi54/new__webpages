@@ -54,4 +54,52 @@
   align-items: center;
 }
 
+.page_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.page_description__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.page_description__new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100px;
+  border: 1px solid red;
+  background-color: red;
+}
+.page_description__new_text {
+  text-transform: uppercase;
+  font-size: small;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.page_description__version {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+}
+.page_description__text_container {
+  max-width: 530px;
+}
+.page_description__header {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.page_description__text {
+  max-width: 530px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+.page_description__link {
+  text-decoration: none;
+  color: blue;
+}
+
 /*# sourceMappingURL=index.css.map */

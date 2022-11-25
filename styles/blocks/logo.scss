@@ -1,3 +1,5 @@
+@import '../utils/variables.scss';
+
 .logo {
   display: flex;
   align-items: center;
@@ -6,8 +8,8 @@
   width: 157px;
 
   &__img {
-    height: 25px;
-    width: 25px;
+    height: $img-size;
+    width: $img-size;
   }
 
   &__text {

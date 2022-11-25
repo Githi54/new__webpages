@@ -129,8 +129,17 @@
   height: 50px;
   width: 610px;
 }
+.form__input:focus {
+  border: 2px solid black;
+}
 .form__message {
   padding-top: 5px;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 50px;
+  width: 610px;
 }
 .form__button_submit {
   height: 50px;
